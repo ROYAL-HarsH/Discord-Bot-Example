@@ -42,7 +42,7 @@ client.config = config;
 client.startDate = startDate;
 
 // Categories of commands
-const modules = ['general', 'other', 'music', 'staff', 'owner'];
+const modules = fs.readdirSync("./commands");
 client.modules = modules;
 
 client.commands = new Discord.Collection();
@@ -87,6 +87,7 @@ modules.forEach(cmd => {
         files.forEach(f => {
             let commandName = f.split(".")[0];
             const props = require(`./commands/${cmd}/${f}`);
+            props.help.category = `${cmd[0].toUpperCase()}${cmd.slice(1).toLowerCase()}`;
             if (!client.config.disabledCommands.includes(commandName)) {
                 client.commands.set(commandName, props);
                 props.help.aliases.forEach(a => {
