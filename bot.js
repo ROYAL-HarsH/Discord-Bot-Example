@@ -14,7 +14,7 @@ const client = new Discord.Client({
 // Import the player from discord-player
 const { Player } = require("discord-player");
 
-//Load the custom filters from the MusicCinfig file
+//Load the custom filters from the MusicConfig file
 const { customFilters } = require(`${process.cwd()}/MusicConfig.js`);
 
 // Create a new Player
