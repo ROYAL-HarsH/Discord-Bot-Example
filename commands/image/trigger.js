@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
         format: "jpg",
         size: 2048
     });
-    const data = await Canvacord.trigger(avatar);
+    const data = await Canvacord.Canvas.trigger(avatar);
     return message.channel.send(new MessageAttachment(data, "triggered.gif"));
 };
 
