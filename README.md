@@ -47,7 +47,7 @@ Then, type this:
 node .
 ```
 
-### Be sure to have edited the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js) file, or the bot will not start!
+### Be sure to have edited the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js) file, or the bot will not start
 That will make the bot up and running!
 
 ## Deployment On BlueFox
