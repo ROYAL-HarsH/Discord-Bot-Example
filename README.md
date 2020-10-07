@@ -28,13 +28,13 @@ A step by step series of examples that tell you how to get a copy of Discord-Bot
 
 First, you will have to open your cmd prompt, and cd to where you installed this bot, type this in your cmd prompt:
 
-```
+```sh
 cd C:/Path/To/Your/Installation/Folder
 ```
 
 Then, simply type this command:
 
-```
+```sh
 npm install
 ```
 
@@ -43,7 +43,7 @@ That will install all the needed modules to make the bot be able to run and func
 
 Then, type this:
 
-```
+```sh
 node .
 ```
 
