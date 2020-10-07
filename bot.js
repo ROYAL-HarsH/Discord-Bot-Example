@@ -35,14 +35,14 @@ client.player = player;
 
 
 // Loads config.js
-config = require('./config.js');
+config = require(`${process.cwd()}/config.js`);
 client.config = config;
 
 // Start time
 client.startDate = startDate;
 
 // Categories of commands
-const modules = fs.readdirSync("./commands");
+const modules = fs.readdirSync(`${process.cwd()}/commands`);
 client.modules = modules;
 
 client.commands = new Discord.Collection();
@@ -52,7 +52,7 @@ client.serverDB = new Enmap({
     name: "servers",
     fetchAll: false,
     autoFetch: true,
-    dataDir: "./data/servers/",
+    dataDir: `${process.cwd()}/data/servers/`,
     cloneLevel: 'deep'
 });
 
@@ -60,7 +60,7 @@ client.userDB = new Enmap({
     name: "users",
     fetchAll: false,
     autoFetch: true,
-    dataDir: "./data/users/",
+    dataDir: `${process.cwd()}/data/users/`,
     cloneLevel: 'deep'
 });
 
@@ -82,11 +82,11 @@ fs.readdir(`${process.cwd()}/modules/`, (err, files) => {
 
 // Command handler
 modules.forEach(cmd => {
-    fs.readdir(`./commands/${cmd}/`, (err, files) => {
+    fs.readdir(`${process.cwd()}/commands/${cmd}/`, (err, files) => {
         if (err) { throw err }
         files.forEach(f => {
             let commandName = f.split(".")[0];
-            const props = require(`./commands/${cmd}/${f}`);
+            const props = require(`${process.cwd()}/commands/${cmd}/${f}`);
             props.help.category = `${cmd[0].toUpperCase()}${cmd.slice(1).toLowerCase()}`;
             if (!client.config.disabledCommands.includes(commandName)) {
                 client.commands.set(commandName, props);
