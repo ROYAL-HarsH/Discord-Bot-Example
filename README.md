@@ -22,7 +22,7 @@ Things you need to install and how to install them:
 
 3. If you want a tutorial on how to make a bot account and the basic's of how to make a discord bot, i recommend following [this tutorial](https://github.com/dylanwe/How-to-make-a-discord-bot)
 
-### Installing
+### Deployment on a Windows system
 
 A step by step series of examples that tell you how to get a copy of Discord-Bot-Example up and running:
 
@@ -52,7 +52,8 @@ That will make the bot up and running!
 
 ## Deployment On BlueFox
 
-To deploy your copy of this bot on bluefox, it's quit simple! Just visit [the BlueFox Host website](https://bluefoxhost.com/index.php), and click on login, then, click on hosting, discord bot hosting, you'll see a new page pop up, click on any plan, then click on continue, (if your trying to host a java/python bot, click on bot type and choose what language your bot is written in.)
+To deploy your copy of this bot on bluefox, it's quit simple! Just visit [the BlueFox Host website](https://bluefoxhost.com/index.php), and click on login, then, click on hosting, discord bot hosting, you'll see a new page pop up, click on any plan, then click on continue, (if your trying to host a java/python bot, click on bot type and choose what language your bot is written in.). After that, you can upload your bot files to the host, and then click on start!
+For morte help, join the suppoer server.
 
 ## Built With
 
