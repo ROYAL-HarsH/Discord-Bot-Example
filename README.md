@@ -20,7 +20,7 @@ Things you need to install and how to install them:
 
 2. You will have to edit the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js); Firstly, you have to rename it to `config.js`, then, add your info: bot token, support server, etc, etc...
 
-3. If you want a tutorial on how to make a bot account and the basic's of how to make a discord bot, i recommend following [this tutorial](https://github.com/dylanwe/How-to-make-a-discord-bot)
+3. If you want a tutorial on how to make a bot account and the basic's of how to make a discord bot, I recommend following [this tutorial](https://github.com/dylanwe/How-to-make-a-discord-bot)
 
 ### Deployment on a Windows system:
 
@@ -53,7 +53,7 @@ That will make the bot up and running!
 ## Deployment On BlueFox:
 
 To deploy your copy of this bot on bluefox, it's quit simple! Just visit [the BlueFox Host website](https://bluefoxhost.com/index.php), and click on login, then, click on hosting, discord bot hosting, you'll see a new page pop up, click on any plan, then click on continue, (if your trying to host a java/python bot, click on bot type and choose what language your bot is written in.). After that, you can upload your bot files to the host, either by uploading them directly or by using a FTTP client like WinSCP, and then click on start!
-For more help, join the [suppoer server](https://discord.gg/AWZYysZ).
+For more help, join the [support server](https://discord.gg/AWZYysZ).
 
 ## Built With:
 
