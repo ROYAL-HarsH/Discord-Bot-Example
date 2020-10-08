@@ -8,21 +8,21 @@
 <a href="https://github.com/BlueFox-Development/Discord-Bot-Example/pulse" alt="Activity">
         <img src="https://img.shields.io/github/commit-activity/m/BlueFox-Development/Discord-Bot-Example" /></a>
 
-## Getting Started
+## Getting Started:
 
-These instructions will get you a copy of the bot up and running on your local machine or on bluefox for development and personal purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the bot up and running on your local machine or on bluefox for development and personal purposes. See deployment for notes on how to deploy the project on a live system or on bluefox.
 
-### Prerequisites
+### Prerequisites:
 
 Things you need to install and how to install them:
 
 1. You will have to install [node.js](https://nodejs.org/en/download/), to do that, follow [this tutorial](https://treehouse.github.io/installation-guides/windows/node-windows.html).
 
-2. You will have to edit the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js); Firstly, you havr to rename it to `config.js`, then, add your info, bot token, support server, etc, etc...
+2. You will have to edit the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js); Firstly, you have to rename it to `config.js`, then, add your info: bot token, support server, etc, etc...
 
 3. If you want a tutorial on how to make a bot account and the basic's of how to make a discord bot, i recommend following [this tutorial](https://github.com/dylanwe/How-to-make-a-discord-bot)
 
-### Deployment on a Windows system
+### Deployment on a Windows system:
 
 A step by step series of examples that tell you how to get a copy of Discord-Bot-Example up and running:
 
@@ -50,21 +50,21 @@ node .
 ### Be sure to have edited the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js) file, or the bot will not start
 That will make the bot up and running!
 
-## Deployment On BlueFox
+## Deployment On BlueFox:
 
-To deploy your copy of this bot on bluefox, it's quit simple! Just visit [the BlueFox Host website](https://bluefoxhost.com/index.php), and click on login, then, click on hosting, discord bot hosting, you'll see a new page pop up, click on any plan, then click on continue, (if your trying to host a java/python bot, click on bot type and choose what language your bot is written in.). After that, you can upload your bot files to the host, and then click on start!
-For morte help, join the suppoer server.
+To deploy your copy of this bot on bluefox, it's quit simple! Just visit [the BlueFox Host website](https://bluefoxhost.com/index.php), and click on login, then, click on hosting, discord bot hosting, you'll see a new page pop up, click on any plan, then click on continue, (if your trying to host a java/python bot, click on bot type and choose what language your bot is written in.). After that, you can upload your bot files to the host, either by uploading them directly or by using a FTTP client like WinSCP, and then click on start!
+For more help, join the [suppoer server](https://discord.gg/AWZYysZ).
 
-## Built With
+## Built With:
 
 * [Discord.js](https://discord.js.org/#/docs/main/12.2.0/general/welcome) - The library used
 * [Node.js](https://www.nodejs.org) - The Runtime Environment
 
-## Contributing
+## Contributing:
 
 Any pull request's are welcome!
 
-## Authors
+## Authors:
 
 * **[FlaringPhoenix](https://github.com/FlaringPhoenix)** - *Original Idea & Base Of The Bot*
 * **[TheGamer465YT](https://github.com/TheGamer456YT)** - *Music Commands, README.md & More*
@@ -72,7 +72,7 @@ Any pull request's are welcome!
 * **[DeathHound6](https://github.com/DeathHound6)** - *Utility Commands & More*
 * **[CreatingEzzz](https://github.com/CatingEzz)** - *Utility Command & More*
 
-## Acknowledgments
+## Acknowledgments:
 
 * Big thanks to anyone who commited to this project & made it a reality.
 
