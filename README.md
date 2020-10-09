@@ -10,7 +10,7 @@
 
 ## Getting Started:
 
-These instructions will get you a copy of the bot up and running on your local machine or on bluefox for development and personal purposes. See deployment for notes on how to deploy the project on a live system or on bluefox.
+These instructions will get you a copy of the bot up and running on your local machine or on bluefox for development or personal purposes. See deployment for notes on how to deploy the project on a live system or on bluefox.
 
 ### Prerequisites:
 
@@ -22,9 +22,9 @@ Things you need to install and how to install them:
 
 3. If you want a tutorial on how to make a bot account and the basic's of how to make a discord bot, I recommend following [this tutorial](https://github.com/dylanwe/How-to-make-a-discord-bot)
 
-### Deployment on a Windows system:
+### Deployment On A Windows System:
 
-A step by step series of examples that tell you how to get a copy of Discord-Bot-Example up and running:
+A step by step series of examples that tell you how to get a copy of Discord-Bot-Example up and running on a Windows machine:
 
 First, you will have to open your cmd prompt, and cd to where you installed this bot, type this in your cmd prompt:
 
@@ -40,15 +40,15 @@ npm install
 
 That will install all the needed modules to make the bot be able to run and function correctly.
 
-
 Then, type this:
 
 ```sh
 node .
 ```
 
-### Be sure to have edited the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js) file, or the bot will not start
 That will make the bot up and running!
+
+### Be sure to have edited the [config.example.js](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/config.example.js) file, or the bot will not start!
 
 ## Deployment On BlueFox:
 
