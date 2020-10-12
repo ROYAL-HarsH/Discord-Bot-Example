@@ -34,6 +34,9 @@ Object.keys(customFilters).forEach(c => {
 client.player = player;
 
 
+// Load the musicUtil file
+client.Util     = require(`${process.cwd()}/modules/MusicUtil.js`);
+
 // Loads config.js
 config = require(`${process.cwd()}/config.js`);
 client.config = config;
