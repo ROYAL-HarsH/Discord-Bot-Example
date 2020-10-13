@@ -29,7 +29,11 @@ exports.run = async (client, message, args) => {
     coinflip, mcuser`, false)
 
     embed.addField("Music", `
-    lyrics`, false)
+    clear, filter, loop, lyrics, nowplaying, pause, play, queue, shuffle, skip, stop, volume, resume, w-filters`, false)
+
+    embed.addField("Image", `
+    clyde, colorfy, rainbow, spotify, trash, trigger`, false)
+
 
     embed.addField("Staff", `
     embed, kick, ban`, false)
