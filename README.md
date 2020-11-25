@@ -3,10 +3,9 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/BlueFox-Development/Discord-Bot-Example.svg?style=flat-square)](https://github.com/BlueFox-Development/Discord-Bot-Example/graphs/contributors)
 [![GitHub license](https://img.shields.io/github/license/BlueFox-Development/Discord-Bot-Example.svg?style=flat-square)](https://github.com/BlueFox-Development/Discord-Bot-Example/blob/master/LICENSE)
 
-<!-- <a href="https://discord.gg/invite"> <img src="https://img.shields.io/discord/guildid?logo=discord" alt="chat on Discord"></a> -->
+[![Activity](https://img.shields.io/github/commit-activity/m/BlueFox-Development/Discord-Bot-Example)](https://github.com/BlueFox-Development/Discord-Bot-Example/pulse)
 
-<a href="https://github.com/BlueFox-Development/Discord-Bot-Example/pulse" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/BlueFox-Development/Discord-Bot-Example" /></a>
+[![Chat on Discord](https://img.shields.io/discord/704423873415741510?logo=discord&style=flat-square)](https://discord.gg/PD8CMMUP7r)
 
 ## Getting Started:
 
