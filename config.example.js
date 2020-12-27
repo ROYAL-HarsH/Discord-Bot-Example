@@ -6,25 +6,25 @@
 
 // Do not change
 let version = "1.0.0";
-let author = ["FlaringPhoenix", "TheGamerYT", "DeathHound"];
+let author = ["HarsH", "Black Head", "Devil"];
 
 // Basic options (all required)
-let botName = "Example-Bot";
-let owners = ["707022994421186651"];
+let botName = "Playzzer-Bot";
+let owners = ["518814691401924640"];
 
 // Token
-let token = "";
+let token = "NzQyNjA5NTA4NTg4NzE2MDYy.XzIm_w.CbYf1pIaLwvPBGtA3utX9LYPt7E";
 
 // Time format for console logging
 let timeFormat = "D MMM YYYY HH:mm:ss";
 
 // Prefix for bot dms
-let dmPrefix = "-";
+let dmPrefix = "?";
 
 // Your server links
 let links = {
-    discord: "https://discord.gg/",
-    website: "https://bluefoxhost.com",
+    Discord: "https://discord.gg/6KVzPK4w3S/",
+    YouTube: "https://www.youtube.com/c/mixedharsh",
 }
 
 // Your api keys
